@@ -225,16 +225,6 @@ Se recomienda seguir [Conventional Commits](https://www.conventionalcommits.org/
 
 ---
 
-## 🤝 Contribución
-
-1. Haz un fork del proyecto
-2. Crea una rama (`git checkout -b feat/mi-feature`)
-3. Commit de tus cambios (`git commit -m 'feat: agrega mi-feature'`)
-4. Push a tu rama (`git push origin feat/mi-feature`)
-5. Abre un Pull Request
-
----
-
 ## 📄 Licencia
 
 Este proyecto es privado y no cuenta con una licencia pública especificada.
