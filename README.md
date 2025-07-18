@@ -68,8 +68,6 @@ npm run dev
 
 ### 🐳 Instalación con Docker
 
-1. **Backend**
-
 ```bash
 cd nc-deployment
 docker-compose up --build
