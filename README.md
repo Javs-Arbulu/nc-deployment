@@ -37,8 +37,11 @@ nc-deployment/
 1. **Clonar el repositorio**
 
 ```bash
-git clone <repository-url>
+git clone --recurse-submodules <repository-url>
 cd nc-deployment
+
+# Si ya lo clonaste sin submódulos
+git submodule update --init --recursive
 ```
 
 2. **Backend**
@@ -68,16 +71,10 @@ npm run dev
 1. **Backend**
 
 ```bash
-cd server
+cd nc-deployment
 docker-compose up --build
 ```
 
-2. **Frontend**
-
-```bash
-cd ../client
-docker-compose up --build
-```
 
 ---
 
