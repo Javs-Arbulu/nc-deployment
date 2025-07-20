@@ -1,10 +1,10 @@
 services:
   server:
     build:
-      context: ./server
+      context: ./Server
       dockerfile: Dockerfile.dev
     volumes:
-      - ./server:/app
+      - ./Server:/app
       - /app/node_modules
     ports:
       - "3000:3000"
@@ -13,10 +13,10 @@ services:
 
   client:
     build:
-      context: ./client
+      context: ./Client
       dockerfile: Dockerfile.dev
     volumes:
-      - ./client:/app
+      - ./Client:/app
       - /app/node_modules
     ports:
       - "4200:4200"
